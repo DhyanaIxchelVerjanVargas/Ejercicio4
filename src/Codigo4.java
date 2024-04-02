@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+/**
+ * El código se basa en el juego piedra, papel o tijeras. La piedra le gana a las tijeras,
+ * las tijeras le ganan al papel
+ * y el papel le gana a la piedra.
+ * Si los jugadores tienen el mismo elemento entonces se llega a un empate.
+ * 
+ * Al final del juego, el programa nos muestra que jugador ha ganado.
+ */
 public class Codigo4 {
 	public static void main(String[] args) {
 		
@@ -9,7 +17,6 @@ public class Codigo4 {
 	    String j1 = s.nextLine();
 	    
 	    System.out.println("Turno del jugador 2 (introduzca piedra, papel o tijeras): ");
-	    Scanner s2 = new Scanner(System.in);
 	    String j2 = s.nextLine();
 	    
 	    if (j1.equals(j2)) {
